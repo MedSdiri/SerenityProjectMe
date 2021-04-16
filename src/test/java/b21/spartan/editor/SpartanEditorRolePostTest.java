@@ -1,5 +1,6 @@
 package b21.spartan.editor;
 
+import config_util.ConfigReader;
 import io.restassured.RestAssured;
 import org.junit.jupiter.api.AfterAll;
 import org.junit.jupiter.api.BeforeAll;
@@ -91,7 +92,7 @@ public class SpartanEditorRolePostTest {
         System.out.println("bodyMap = " + bodyMap);
 
         SerenityRest.given()
-                .auth().basic("editor","editor")
+                .auth().basic(ConfigReader.getProperty("serenity.project.name"),ConfigReader.getProperty("serenity.project.name"))
                 .log().body()
                 .contentType(ContentType.JSON)
                 .body(bodyMap).
@@ -139,7 +140,7 @@ public class SpartanEditorRolePostTest {
         bodyMap.put("phone", phone);
         System.out.println("bodyMap = " + bodyMap);
         SerenityRest.given()
-                .auth().basic("editor", "editor")
+                .auth().basic(ConfigReader.getProperty("serenity.project.name"), ConfigReader.getProperty("serenity.project.name"))
                 .log().body()
                 .contentType(ContentType.JSON)
                 .body(bodyMap).
@@ -153,6 +154,17 @@ public class SpartanEditorRolePostTest {
         // message field should report correct error count
         //Ensure.that("")
         // for example if you have 3 errors it should be (Validation failed for object='spartan'. Error count: 3)
+
+
+    }
+
+
+    @Test
+    public void testingConfigReaderUtility(){
+
+        System.out.println(ConfigReader.getProperty("serenity.project.name"));
+        System.out.println(ConfigReader.getProperty("spartan.rest.url"));
+        System.out.println(ConfigReader.getProperty("spartan.rest.url"));
 
 
     }
