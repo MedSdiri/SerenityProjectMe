@@ -1,4 +1,0 @@
--------------------------------------------------------------------------------
-Test set: b21.spartan.admin.SpartanAdminTest
--------------------------------------------------------------------------------
-Tests run: 2, Failures: 0, Errors: 0, Skipped: 1, Time elapsed: 0.792 s - in b21.spartan.admin.SpartanAdminTest

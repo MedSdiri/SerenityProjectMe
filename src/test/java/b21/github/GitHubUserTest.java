@@ -6,12 +6,12 @@ import io.restassured.RestAssured;
 import net.serenitybdd.junit5.SerenityTest;
 import net.serenitybdd.rest.Ensure;
 import net.serenitybdd.rest.SerenityRest;
-import org.junit.jupiter.api.AfterAll;
-import org.junit.jupiter.api.BeforeAll;
-import org.junit.jupiter.api.DisplayName;
-import org.junit.jupiter.api.Test;
+import org.junit.jupiter.api.*;
+
 import static org.hamcrest.Matchers.*;
 import static net.serenitybdd.rest.SerenityRest.*;
+
+@Disabled
 @SerenityTest
 public class GitHubUserTest {
 

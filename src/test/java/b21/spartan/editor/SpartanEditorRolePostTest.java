@@ -21,6 +21,7 @@ import java.util.Map;
 import static net.serenitybdd.rest.SerenityRest.*;
 import static org.hamcrest.Matchers.*;
 
+@Disabled
 @SerenityTest
 public class SpartanEditorRolePostTest {
 

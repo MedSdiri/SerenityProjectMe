@@ -16,6 +16,7 @@ import spartan_util.SpartanUtil;
 import java.util.HashMap;
 import java.util.Map;
 
+@Disabled
 @SerenityTest
 public class SpartanUserRoleTest {
     @BeforeAll

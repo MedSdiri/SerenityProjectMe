@@ -1,4 +1,0 @@
--------------------------------------------------------------------------------
-Test set: b21.spartan.editor.SpartanEditorRolePostTest
--------------------------------------------------------------------------------
-Tests run: 7, Failures: 0, Errors: 0, Skipped: 0, Time elapsed: 4.722 s - in b21.spartan.editor.SpartanEditorRolePostTest
