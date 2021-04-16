@@ -1,0 +1,4 @@
+"Story","Title","Result","Date","Stability","Duration (s)"
+"Git hub user test","Testing GET /users/{user_id} endpoint","SUCCESS","2021-04-16T09:40:13.522-05:00[America/Chicago]","0.0","3.81"
+"Git hub user test","Test git hub user2","SUCCESS","2021-04-16T09:40:17.333-05:00[America/Chicago]","0.0","1.35"
+"Git hub user test","Test git hub user3","SUCCESS","2021-04-16T09:40:18.684-05:00[America/Chicago]","0.0","0.6"
